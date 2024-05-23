@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34302.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsProject", "EventsProject\EventsProject.csproj", "{B8439376-F608-406F-AD72-A0411BF0B001}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventsProject", "EventsProject\EventsProject.csproj", "{B8439376-F608-406F-AD72-A0411BF0B001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestEventsProject", "TestEventsProject\TestEventsProject.csproj", "{FAD8F5FB-2265-4B81-9BAF-B7146C742730}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{8B890C02-855D-424B-AF17-6371D40AFA05}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Documents\SQL Server Management Studio\QueryPruebaEventos.sql = ..\..\..\Documents\SQL Server Management Studio\QueryPruebaEventos.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,10 @@ Global
 		{B8439376-F608-406F-AD72-A0411BF0B001}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8439376-F608-406F-AD72-A0411BF0B001}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8439376-F608-406F-AD72-A0411BF0B001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAD8F5FB-2265-4B81-9BAF-B7146C742730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD8F5FB-2265-4B81-9BAF-B7146C742730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAD8F5FB-2265-4B81-9BAF-B7146C742730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAD8F5FB-2265-4B81-9BAF-B7146C742730}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
